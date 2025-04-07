@@ -46,7 +46,8 @@ main {
   text-decoration: none;
   color: var(--text-border);
 }
-code {
+code,
+math {
   display: block;
   background-color: var(--backgroundcode);
   padding: 15px;

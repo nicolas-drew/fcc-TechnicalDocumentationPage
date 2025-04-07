@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Anechoic Chamber Documentation"
+    />
+    <title>Anechoic Chamber Documentation</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>
+        <h1>Anechoic Chamber Documentation</h1>
+      </header>
+      <a href="#Introduction" class="nav-link">Introduction</a>
+      <a href="#Acoustic_Anechoic_Chambers" class="nav-link"
+        >Acoustic Anechoic Chambers</a
+      >
+      <a href="#Semi-Anechoic_and_Hemi-Anechoic_Chambers" class="nav-link"
+        >Semi-Anechoic and Hemi-Anechoic Chambers</a
+      >
+      <a href="#Radio_Frequency_(RF)" class="nav-link">Radio Frequency (RF)</a>
+      <a href="#Health_and_Safety_Risks" class="nav-link"
+        >Health and Safety Risks</a
+      >
+      <a href="#Conclusion" class="nav-link">Conclusion</a>
+      <a href="#Reference" class="nav-link">Reference</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <img
+          src="https://uol.de/f/6/_processed_/7/f/csm_Mellert1_40893ff92f.jpg"
+          alt="An anechoic chamber"
+          class="picture-anechoic"
+        />
+        <p>
+          An <strong>anechoic chamber</strong> is a room specifically designed
+          to prevent reflections or echoes of sound or electromagnetic waves,
+          allowing only direct sound or signals to be perceived. This makes them
+          ideal for situations where precise testing and measurement is
+          essential.
+        </p>
+        <p>
+          The term "anechoic" was coined by American acoustician
+          <strong>Leo Beranek</strong
+          ><sup id="ref-1"><a href="#note-1" class="note-ref">1</a></sup
+          >, originally referring to acoustic chambers, but is now also applied
+          to chambers used for radio frequency (RF) and sonar testing.
+        </p>
+        <ul>
+          <li>
+            <span class="bold">Acoustic chambers:</span> Designed to minimize
+            sound reflections.
+          </li>
+          <li>
+            <span class="bold">RF and sonar chambers:</span> Used to eliminate
+            reflections and external noise caused by electromagnetic waves.
+          </li>
+        </ul>
+        <p>
+          The size of an <strong>anechoic chamber</strong> can vary greatly,
+          from small rooms the size of microwaves to larger rooms the size of
+          airplane hangars<sup id="ref-2"
+            ><a href="#note-2" class="note-ref">2</a></sup
+          >, depending on the objects being tested and the frequency ranges
+          involved.
+        </p>
+      </section>
+      <section class="main-section" id="Acoustic_Anechoic_Chambers">
+        <header>Acoustic Anechoic Chambers</header>
+        <h2>How Acoustic Anechoic Chambers Work</h2>
+        <p>
+          <span class="bold">Acoustic anechoic chambers</span> are used to test
+          devices such as loudspeakers that produce intense sound levels. These
+          chambers are critical because it would be impossible to test these
+          sound levels outdoors in populated areas.
+        </p>
+        <h2>Common Testing Applications</h2>
+        <ul>
+          <li>Measuring the transfer function of a loudspeaker.</li>
+          <li>
+            Analyzing the directivity of noise emissions from industrial
+            machinery.
+          </li>
+        </ul>
+        <h2>Silence in an Anechoic Chamber</h2>
+        <p>
+          <strong>Anechoic chambers</strong> are known for their extreme
+          quietness. Noise levels inside can be as low as
+          <span class="bold">10-20 dBA</span>. For example, in 2005, the
+          quietest chamber was recorded at <span class="bold">-9.4 dBA</span>,
+          and in 2015, a chamber at <em>Microsoft</em> set the world record at
+          <span class="bold">-20.6 dBA</span>.
+        </p>
+        <div class="note">
+          Note: Some people find the absolute silence disorienting, as it is an
+          unnatural experience for the human ear.
+        </div>
+        <h2>Reflection Reduction Mechanism</h2>
+        <p>
+          <strong>Anechoic chambers</strong> use
+          <span class="bold">wedge-shaped absorbers</span> to effectively reduce
+          the reflection of sound waves. These absorbers are typically made of
+          materials such as foam that are strategically placed to interact with
+          sound waves, dissipating them rather than reflecting them back.
+        </p>
+        <h2>Detailed Process of Reflection Reduction</h2>
+        <ul class="reflection-reduc">
+          <li>
+            <span class="bold">Incident Wave (I)</span> The sound wave entering
+            the chamber is called the incident wave. This wave travels through
+            the air toward the chamber's surfaces.
+            <code>I --> Incident Sound Wave</code>
+          </li>
+          <li>
+            <span class="bold">Impact on the Absorber (W)</span> When the
+            incident wave hits the
+            <span class="bold">wedge-shaped absorber (W)</span>, it is not
+            merely reflected. The absorber material is designed to dissipate the
+            acoustic energy of the wave by absorbing it, rather than bouncing it
+            directly back.
+            <code>W --> Wedge Absorber</code>
+          </li>
+          <li>
+            <span class="bold">Partial Reflection (R)</span> Although the
+            incident wave is mostly absorbed, a small portion of it may be
+            reflected due to the structure of the absorber. This creates a
+            <span class="bold">reflected wave (R)</span>. However, the amount of
+            reflected energy is significantly reduced by the absorber's
+            material.
+            <code>R --> Reflected Sound Wave</code>
+          </li>
+          <li>
+            <span class="bold">Energy Dissipation in Air (A)</span> The
+            <span class="bold">reflected wave (R)</span> propagates through the
+            air gap between the
+            <span class="bold">wedge-shaped absorbers (A)</span>. The energy of
+            the reflected wave is gradually dissipated due to interactions with
+            the air and the absorbing materials (especially through the
+            viscosity of the air). This process further reduces the amount of
+            reflected wave that could return to the sound source.
+            <code>A --> Air Gap</code>
+          </li>
+          <li>
+            <span class="bold">Dissipation via the Corners (C)</span> The
+            corners of the absorber are specifically designed to maximize energy
+            dissipation. As the sound wave bounces in the
+            <span class="bold">air gap (A)</span>, it is quickly converted into
+            heat due to interactions with the absorbing materials. This prevents
+            the reflected wave from being sent back into the chamber, minimizing
+            undesirable reflections.
+            <code>C --> Corner </code>
+          </li>
+        </ul>
+        <p>
+          Thus, the
+          <span class="bold">reflection reduction mechanism</span> relies on a
+          series of interactions between the sound waves and the
+          <span class="bold">wedge-shaped absorbers</span>. These interactions
+          efficiently dissipate the wave's energy, preventing it from reflecting
+          back to the sound source and allowing for a pure, measurable acoustic
+          environment.
+        </p>
+      </section>
+      <section
+        class="main-section"
+        id="Semi-Anechoic_and_Hemi-Anechoic_Chambers"
+      >
+        <header>Semi-Anechoic and Hemi-Anechoic Chambers</header>
+        <h2>Difference from Full Anechoic Chambers</h2>
+        <p>
+          Unlike full <strong>anechoic chambers</strong>,
+          <strong>semi-anechoic</strong> and <strong>hemi-anechoic</strong>
+          chambers do not absorb energy in all directions. These chambers
+          typically feature a solid floor to support heavier objects such as
+          vehicles or industrial machinery, making them suitable for tests that
+          require a solid surface.
+        </p>
+        <ul class="semi-hemi">
+          <li>
+            <span class="bold">Semi-anechoic chambers:</span> Solid floor with
+            absorbent walls and ceiling.
+          </li>
+          <li>
+            <span class="bold">Hemi-anechoic chambers:</span> Typically feature
+            a reflective floor or a flat, untreated floor, which might differ in
+            performance or design.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="Radio_Frequency_(RF)">
+        <header>Radio Frequency (RF)</header>
+        <h2>Purpose of RF Anechoic Chambers</h2>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Radio-frequency-anechoic-chamber-HDR-0a.jpg/1280px-Radio-frequency-anechoic-chamber-HDR-0a.jpg"
+          alt="An RF Anechoic chamber"
+          class="picture-rf-anechoic"
+        />
+        <p>
+          <strong>RF anechoic chambers</strong> are specifically designed for
+          testing <span class="bold">antennas</span>,
+          <span class="bold">radars</span>, and
+          <span class="bold">electromagnetic interference (EMI)</span>. The
+          internal surfaces are lined with
+          <span class="bold">radiation absorbent materials (RAM)</span>
+          to absorb RF radiation and minimize reflections.
+        </p>
+        <h2>Radiation Absorbent Material (RAM)</h2>
+        <p>
+          <span class="bold">RAM</span> is a specialized material that absorbs
+          electromagnetic radiation (non-ionizing radiation) to reduce the level
+          of reflected RF radiation. The effectiveness of
+          <span class="bold">RAM</span> is crucial for accurate measurement in
+          fields like antenna testing.
+        </p>
+        <h2>Performance and Chamber Size</h2>
+        <p>
+          The chamber's ability to absorb radiation depends on its size and the
+          frequency range being tested. Larger chambers are used for lower
+          frequencies (longer wavelengths), while smaller chambers are
+          sufficient for higher frequencies (shorter wavelengths).
+          <code>λ = v / f (wavelengths = velocity / frequency)</code>
+        </p>
+        <h2>Installation and Security</h2>
+        <p>
+          <strong>RF anechoic chambers</strong> are often built inside shielded
+          rooms that use the Faraday cage<sup id="ref-3"
+            ><a href="#note-3" class="note-ref">3</a></sup
+          >
+          principle to prevent external interference from affecting the tests.
+        </p>
+      </section>
+      <section class="main-section" id="Health_and_Safety_Risks">
+        <header>Health and Safety Risks</header>
+        <h2>Risks Associated with RF Anechoic Chambers</h2>
+        <p>
+          Several risks are associated with RF anechoic chambers, especially
+          during high-frequency tests.
+        </p>
+        <ul class="risks-list">
+          <li>
+            <span class="bold">RF Radiation:</span> Personnel are typically not
+            allowed inside the chamber during testing, as RF radiation (though
+            non-ionizing) can pose health risks, especially at high power
+            levels.
+          </li>
+          <li>
+            <span class="bold">Fire Hazard:</span> The RAM absorbs RF radiation
+            and may generate heat. Without proper heat dissipation, this could
+            lead to fire risks, especially if high-power antennas are too close
+            to the RAM.
+          </li>
+          <li>
+            <span class="bold">Trapped Personnel:</span> Safety measures should
+            be in place to prevent personnel from being trapped inside the
+            chamber in the event of an emergency.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="Conclusion">
+        <header>Conclusion</header>
+        <p>
+          <strong>Anechoic chambers</strong> are not just fascinating from a
+          technical standpoint they also challenge our perceptions of sound and
+          space. From the absolute silence of the world's quietest room to their
+          crucial role in testing cutting edge technology, these chambers
+          provide a unique environment for both scientific exploration and
+          sensory experience.
+        </p>
+        <p>
+          Whether used for acoustic testing, radio frequency research, or even
+          simulating outer space conditions, <strong>anechoic chambers</strong>
+          continue to push the boundaries of what's possible, making them an
+          indispensable tool across various industries.
+        </p>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>References</header>
+        <ul class="source-ref">
+          <li id="note-1">
+            <sup><a href="#ref-1" title="Up" class="note-ref">&uarr;</a></sup>
+            Leo Beranek -
+            <a href="https://en.wikipedia.org/wiki/Leo_Beranek" target="_blank"
+              >Wiki</a
+            >
+          </li>
+          <li id="note-2">
+            <sup><a href="#ref-2" title="Up" class="note-ref">&uarr;</a></sup>
+            B-1B in the Benefield Anechoic Facility (BAF), 2016 -
+            <a
+              href="https://en.wikipedia.org/wiki/Benefield_Anechoic_Facility#/media/File:B-1B_in_the_Benefield_Anechoic_Facility.jpg"
+              target="_blank"
+              >Picture</a
+            >
+          </li>
+          <li id="note-3">
+            <sup><a href="#ref-3" title="Up" class="note-ref">&uarr;</a></sup>
+            Faraday cage -
+            <a href="https://en.wikipedia.org/wiki/Faraday_cage" target="_blank"
+              >Wiki</a
+            >
+          </li>
+        </ul>
+        <p class="source-wiki">
+          Source:
+          <a
+            href="https://en.wikipedia.org/wiki/Anechoic_chamber"
+            target="_blank"
+            >Wikipedia - Anechoic Chamber</a
+          >
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

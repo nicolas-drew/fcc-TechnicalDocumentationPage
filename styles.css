@@ -1,0 +1,147 @@
+/* https://coolors.co/1c0f13-6e7e85-b7cece-bbbac6-e2e2e2 color palette*/
+:root {
+  --text-border: #1c0f13;
+  --backgroundnav-note: #bbbac6;
+  --backgroundhtml: #e2e2e2;
+  --backgroundcode: #b7cece;
+  --color-hover: #6e7e85;
+  --color-link: #0000ee;
+}
+html {
+  background-color: var(--backgroundhtml);
+  color: var(--text-border);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 2;
+  scroll-behavior: smooth;
+}
+#main-doc header {
+  font-weight: bold;
+  font-size: 1.6em;
+  color: var(--text-border);
+}
+#main-doc {
+  padding: 30px;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  border-right: 2px solid var(--text-border);
+  background-color: var(--backgroundnav-note);
+  overflow: hidden;
+}
+main {
+  position: absolute;
+  margin-left: 310px;
+}
+#navbar a {
+  display: block;
+  border-top: 2px solid var(--text-border);
+  width: 100%;
+  max-width: 260px;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: var(--text-border);
+}
+code {
+  display: block;
+  background-color: var(--backgroundcode);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+h2 {
+  font-size: 1.05em;
+}
+h1 {
+  padding: 0 20px;
+}
+.bold {
+  font-weight: bold;
+}
+.reflection-reduc {
+  list-style-type: decimal;
+  max-width: 95%;
+}
+.semi-hemi,
+.risks-list {
+  max-width: 95%;
+}
+.note,
+.source-wiki,
+.source-ref {
+  border-left: 2px solid var(--text-border);
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: var(--backgroundnav-note);
+  border-radius: 5px;
+  width: fit-content;
+}
+.source-ref {
+  list-style-type: decimal;
+  padding-left: 30px;
+}
+p a,
+li a,
+.note-ref {
+  text-decoration: none;
+  color: var(--color-link);
+}
+p a:visited,
+li a:visited,
+.note-ref:visited {
+  color: var(--color-link);
+}
+p a:hover,
+li a:hover,
+.note-ref:hover {
+  color: var(--color-hover);
+  text-decoration: underline;
+}
+
+.picture-anechoic,
+.picture-rf-anechoic {
+  max-width: 40%;
+  float: right;
+  border-radius: 5px;
+  border: 2px solid var(--text-border);
+  cursor: zoom-in;
+}
+.picture-anechoic {
+  margin: 27px 10px 10px 10px;
+}
+.picture-rf-anechoic {
+  margin: 10px 10px 10px 11px;
+}
+.picture-anechoic:active,
+.picture-rf-anechoic:active {
+  transform: scale(1.4);
+  position: fixed;
+  top: 16%;
+  right: 18%;
+  transition: 0.3s;
+}
+@media screen and (max-width: 725px) {
+  #navbar {
+    width: 150px;
+    height: 100%;
+    font-size: 0.7em;
+  }
+  #navbar a {
+    padding: 25px 5px;
+  }
+  h1 {
+    padding: 0 5px;
+  }
+  #main-doc {
+    width: 63%;
+    left: -155px;
+  }
+  .picture-anechoic,
+  .picture-rf-anechoic {
+    display: none;
+  }
+}
